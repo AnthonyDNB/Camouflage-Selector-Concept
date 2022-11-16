@@ -1,0 +1,22 @@
+#
+# IMPORTANT
+# -Do not modify/localize %s, %d, %u or any other such constructs, leave them as they are.
+# -Do not modify \n (it moves the text following it to the next line).
+# -Text IDs ending in _ttip or _tooltip can be translated using any length, for all others try to keep the same length (though it depends from text to text).
+# -Keep every @id=text on one line
+#
+
+
+#For Debuging
+@naked_name=Naked (Box)
+@naked_desc=You dedicated clothes and skin are too good for y...basically its for debuging your outfits/camos, normally it will be disabled
+
+#Default camo for the classes
+@MultiCam_camo_name=MultiCam (Default)
+@MultiCam_camo_desc=The standard of many nations, battle tested and reliable in most field conditions.\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least the baddies can't see you.
+
+#Custom camo/outfits
+@flannel_camo_name=Flannel Outfit
+@flannel_camo_desc=You watched one video of Garand dad's videos and decided that flannel would look good for that next DA op in Nowheraki.\n\nYou look like a trucker or a PMC trying to act cool, but it is comfortable in this hot weather and it does make you stand out from your comrades in arms.
+@DPM_sand_camo_name=DPM Desert
+@DPM_sand_camo_desc=A classic worn by the British Armed Forces in the early years of their foray into Iraq and Afghansitan.\n\nA good camo for desert environments it is also one of the last traditional camos before the soulless multicam took its place.\n\nThough it is still in use in some circles most notably UKSF operators who prefer DPM over the newer camos and want to stand out from their fellow team members. It really is a classic pattern\n\nAlso its one of the camos i need to imporve on comeing to the Royal Marines mod, also hit me up if you can make models  
