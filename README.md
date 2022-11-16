@@ -6,7 +6,7 @@ Due to how this mod works, this mod wont be compatible to any other mods that re
 
 For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @Anthony in the #dk2_mod_discussion channel in the DoorKickers Discord
 
-![alt text](https://github.com/AnthonyNonStop/Camouflage-Selector-Concept/1.png?raw=true)
+![alt text](https://github.com/AnthonyNonStop/Camouflage-Selector-Concept/.GitHub Read Me Photos Files/1.png?raw=true)
 
 # Features
 
