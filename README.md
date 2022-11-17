@@ -1,6 +1,6 @@
 # Preview Camouflage Selector Concept For DK2
 
-My preview concept of how KHG may add an Camouflage/Outfit selector to DoorKickers 2 in a future game update, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on here instead
+My preview concept of how KHG may add an Camouflage/Outfit selector to DoorKickers 2 in a future game update, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on Github and using the term "**Concept**"
 
 Due to how this mod works, this mod wont be compatible to any other mods that replaces the default human models in the game like the T1 mod and any clothing mods
 
