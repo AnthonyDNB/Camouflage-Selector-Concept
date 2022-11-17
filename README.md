@@ -24,7 +24,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 
 # Technical Issues and Deal Breakers
 
--The big deal breaker for me is the lockpic wont work anymore becuse i used a INV slot reserved for the lockpic (its the only way i could do it) but however i think i got a idea how to fix this in a later game update
+-The big deal breaker for me is the lockpic wont work anymore becuse i used a INV slot normally reserved for the lockpic (its the only way i could do it) but however i think i got a idea how to fix this in a later game update
 
 -The 2nd thing that bugged me is I couldn't get the ui of how i wanted it to be in a different sub-menu with added details
 
