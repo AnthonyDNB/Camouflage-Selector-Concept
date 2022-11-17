@@ -1,6 +1,6 @@
-# Camouflage Selector Concept For DK2
+# Preview Camouflage Selector Concept For DK2
 
-My concept of how KHG could add an Camouflage/Outfit selector to DoorKickers 2, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on here instead
+My preview concept of how KHG may add an Camouflage/Outfit selector to DoorKickers 2 in a future game update, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on here instead
 
 Due to how this mod works, this mod wont be compatible to any other mods that replaces the default human models in the game like the T1 mod and any clothing mods
 
@@ -28,7 +28,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 
 -The 2nd thing that bugged me is I couldn't get the ui of how i wanted it to be in a different sub-menu with added details
 
--Also one big note the MultiCam (Default) camo wont be equiped by default so you wil lneed to apply it before you start the game or the 3d models wont show 
+-Also one big note the MultiCam (Default) camo wont be equiped by default so you will need to apply it yourself before you start the game or the 3d models wont show 
 
 # Credits
 
