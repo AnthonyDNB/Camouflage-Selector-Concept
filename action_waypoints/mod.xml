@@ -1,0 +1,8 @@
+<ActionWaypoints>
+<wp
+		type="PICK_LOCK_MACHINE"
+		equipment="Flannel_camo_cia"
+		ui_prefix="data/textures/gui_ingame/waypoints/lockpick"
+		ttip="@menu_game_lockpick_ttip"
+		ttip_disabled="@menu_game_tool_disabled_ttip"/>
+</ActionWaypoints>

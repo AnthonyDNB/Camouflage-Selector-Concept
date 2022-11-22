@@ -78,11 +78,11 @@
 		<to name="Rangers"/>
 	</Bind>
 	<ExplosiveCharge name="Flannel_camo" inventoryBinding="SupportGear2"
-			tooltip="@flannel_camo_name"
-			description="@flannel_camo_desc"
+			tooltip="@flannel_outfit_name"
+			description="@flannel_outfit_desc"
 			img="data/models/basic_armor_ui.dds"
 		>
-		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_camo.dds"/>
+		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_outfit.dds"/>
 		<ModifiableParams/>
 		<Params>
 		</Params>
@@ -93,14 +93,14 @@
 		<to name="CIA"/>
 	</Bind>
 	<LockpickMachine name="Flannel_camo_cia" inventoryBinding="SupportGear2"
-		tooltip="@flannel_camo_name"
-		description="Testing"
+		tooltip="@flannel_outfit_name"
+		description="@flannel_outfit_desc"
 		img="data/models/basic_armor_ui.dds"
 		animationSet="generic_device"
 		soundUse="lockpick_use"
 		>
 		<RenderObject3D model="data/models/equipment/tec_torch.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/tec_torch.dds"/>
-		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_camo.dds"/>
+		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_outfit.dds"/>
 		<ModifiableParams
 			efficiencyPercent="100"
 			changeInTime="500"
@@ -110,15 +110,40 @@
 		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
 	</LockpickMachine>
 
-	<Bind eqp="DPM_sand_camo">
+	<Bind eqp="DDPM_camo">
 		<to name="Rangers"/>
 	</Bind>
-	<ExplosiveCharge name="DPM_sand_camo" inventoryBinding="SupportGear2"
-			tooltip="@DPM_sand_camo_name"
-			description="@DPM_sand_camo_desc"
+	<ExplosiveCharge name="DDPM_camo" inventoryBinding="SupportGear2"
+			tooltip="@DDPM_camo_name"
+			description="@DDPM_camo_desc"
 			img="data/models/basic_armor_ui.dds"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_desert_camo.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<ExplosiveCharge name="DPM_camo" inventoryBinding="SupportGear2"
+			tooltip="@DPM_camo_name"
+			description="@DPM_sand_camo_desc"
+			img="data/models/basic_armor_ui.dds"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_camo.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="MTP_camo">
+		<to name="Rangers"/>
+	</Bind>
+	<ExplosiveCharge name="MTP_camo" inventoryBinding="SupportGear2"
+			tooltip="@MTP_camo_name"
+			description="@MTP_camo_desc"
+			img="data/models/basic_armor_ui.dds"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_mtp_camo.dds"/>
 		<ModifiableParams/>
 		<Params>
 		</Params>
