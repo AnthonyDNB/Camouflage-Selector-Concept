@@ -7,20 +7,22 @@
 #
 
 
-#For Debuging
+#For Debugging
 @naked_name=Naked (Cube Body)
-@naked_desc=You have dedicated clothes and skin are too good for y...basically its an debuging tool for your outfits/camos, normally it will be disabled
+@naked_desc=You have dedicated clothes and skin are too good for y...basically its an debugging tool to test the outfits/camos of this concept preview mod ,normally it will be disabled
 
 #Default camo for the classes
 @MultiCam_camo_name=MultiCam (Default)
-@MultiCam_camo_desc=The standard of many nations, battle tested and reliable in most field conditions.\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least the baddies can't see you.
+@MultiCam_camo_desc=The standard of many nations, battle proven and reliable in most field conditions including desert, woodland, mountains and urban locations\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least OpFor can't see you.
+@ragged_uniform_name=Ragged Uniform
+@ragged_uniform_desc=
 
 #Custom camo/outfits
 @flannel_outfit_name=Flannel Outfit
-@flannel_outfit_desc=You watched one of Garand dad's videos and decided that flannel would look good for your next DA op in Nowheraki.\n\nYou look like a trucker or a too cool PMC contractor, but it is comfortable in this hot weather and it does make you stand out from your comrades in arms.
+@flannel_outfit_desc=You watched one of Garand dad's videos and decided that flannel would look good for your next DA op in Nowheraki.\n\nYou look like a lumberjack or a too cool PMC contractor, but it is comfortable in this hot weather and it does make you stand out from your comrades in arms.
 @DDPM_camo_name=DPM Desert
-@DDPM_camo_desc=A classic worn by the British Armed Forces in the early years of their foray into Iraq and Afghansitan.\n\nA good camo for desert environments it is also one of the last traditional camos before the soulless multicam took its place.\n\nThough it is still in use in some circles most notably UKSF operators who prefer the classic DPM look over the newer camos
+@DDPM_camo_desc=A classic worn by the British Armed Forces in the early years of their foray into Iraq and Afghansitan.\n\nA good camo for all desert environments it is also one of the last traditional camos before the soulless multicam took its place.\n\nThough it is still in use in some circles most notably UKSF operators who prefer the classic DPM look over the newer camos
 @DPM_camo_name=DPM
 @DPM_camo_desc=DPM
 @MTP_camo_name=MTP
-@MTP_camo_desc=The standard issue of the British Armed Forces, battle proven and reliable in most field conditions including desert, woodland, mountains and urban locations\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least OpFor can't see you.\n\nAnd also its one of the camos coming to my royal marines mod, also hit me up if you can make models
+@MTP_camo_desc=The British take on the successful MultiCam program, combined with the shapes of the existing DPM patterns with MultiCam colours\n\nBut however the MTP pattern itself was not tried against other patterns and its adoption was based solely on its similarity to the original Crye Multicam, \n\nAnd also its one of the camos coming to my royal marines mod, also hit me up if you can make models
