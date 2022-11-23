@@ -6,7 +6,7 @@ Btw due to how this mod works, this mod wont be compatible to any other mods tha
 
 For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @Anthony in the #dk2_mod_discussion channel in the DoorKickers Discord
 
-![alt text](https://github.com/AnthonyNonStop/Camouflage-Selector-Concept/blob/master/.GitHub%20Read%20Me%20Photos%20Files/3.png)
+![alt text](https://github.com/AnthonyNonStop/Camouflage-Selector-Concept/blob/master/.GitHub%20Read%20Me%20Photos%20Files/read_me_pic.png)
 # Features
 
 -MultiCam (Default) Camo <br />
