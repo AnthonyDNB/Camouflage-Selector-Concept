@@ -25,4 +25,4 @@
 @DPM_camo_name=DPM
 @DPM_camo_desc=DPM
 @MTP_camo_name=MTP
-@MTP_camo_desc=The British take on the successful MultiCam program, combined with the shapes of the existing DPM patterns with MultiCam colours\n\nBut however the MTP pattern itself was not tried against other patterns and its adoption was based solely on its similarity to the original Crye Multicam, \n\nAnd also its one of the camos coming to my royal marines mod, also hit me up if you can make models
+@MTP_camo_desc=The British take on the successful MultiCam program, composed of the shapes of the existing DPM patterns with MultiCam colours\n\nBut however the MTP pattern itself was not tried against other patterns and its adoption was based solely on its similarity to the original Crye Multicam, \n\nAnd also its one of the camos coming to my royal marines mod, also hit me up if you can make models
