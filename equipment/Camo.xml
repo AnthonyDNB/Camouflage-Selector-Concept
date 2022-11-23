@@ -8,7 +8,7 @@
 	<ExplosiveCharge name="naked_skin" inventoryBinding="SupportGear2"
 				tooltip="@naked_name"
 				description="@naked_desc"
-				img="data/models/naked_skin_ui.dds"
+				img="data/models/custom_camo/cubebody_ui.tga"
 			>
 			<ModifiableParams/>
 			<Params>
@@ -23,7 +23,7 @@
 	<ExplosiveCharge name="default_camo_assaulter" inventoryBinding="SupportGear2"
 			tooltip="@MultiCam_camo_name"
 			description="@MultiCam_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/humans/ranger_default_camo_assaulter.dds"/>
 		<ModifiableParams/>
@@ -37,7 +37,7 @@
 	<ExplosiveCharge name="default_camo_support" inventoryBinding="SupportGear2"
 			tooltip="@MultiCam_camo_name"
 			description="@MultiCam_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_support.khm" diffuseTex="data/models/humans/ranger_default_camo_support.dds"/>
 		<ModifiableParams/>
@@ -51,7 +51,7 @@
 	<ExplosiveCharge name="default_camo_marksman" inventoryBinding="SupportGear2"
 			tooltip="@MultiCam_camo_name"
 			description="@MultiCam_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_marksman.khm" diffuseTex="data/models/humans/ranger_default_camo_marksman.dds"/>
 		<ModifiableParams/>
@@ -65,7 +65,7 @@
 	<ExplosiveCharge name="default_camo_grenadier" inventoryBinding="SupportGear2"
 			tooltip="@MultiCam_camo_name"
 			description="@MultiCam_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_grenadier.khm" diffuseTex="data/models/humans/ranger_default_camo_grenadier.dds"/>
 		<ModifiableParams/>
@@ -80,7 +80,7 @@
 	<ExplosiveCharge name="Flannel_camo" inventoryBinding="SupportGear2"
 			tooltip="@flannel_outfit_name"
 			description="@flannel_outfit_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/custom_camo/ranger_flannel_outfit_ui.tga"
 		>
 		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_outfit.dds"/>
 		<ModifiableParams/>
@@ -95,7 +95,7 @@
 	<LockpickMachine name="Flannel_camo_cia" inventoryBinding="SupportGear2"
 		tooltip="@flannel_outfit_name"
 		description="@flannel_outfit_desc"
-		img="data/models/basic_armor_ui.dds"
+		img="data/models/custom_camo/ranger_flannel_outfit_ui.tga"
 		animationSet="generic_device"
 		soundUse="lockpick_use"
 		>
@@ -116,7 +116,7 @@
 	<ExplosiveCharge name="DDPM_camo" inventoryBinding="SupportGear2"
 			tooltip="@DDPM_camo_name"
 			description="@DDPM_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/custom_camo/ranger_dpm_desert_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_desert_camo.dds"/>
 		<ModifiableParams/>
@@ -127,7 +127,7 @@
 	<ExplosiveCharge name="DPM_camo" inventoryBinding="SupportGear2"
 			tooltip="@DPM_camo_name"
 			description="@DPM_sand_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/custom_camo/ranger_flannel_outfit_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_camo.dds"/>
 		<ModifiableParams/>
@@ -141,7 +141,7 @@
 	<ExplosiveCharge name="MTP_camo" inventoryBinding="SupportGear2"
 			tooltip="@MTP_camo_name"
 			description="@MTP_camo_desc"
-			img="data/models/basic_armor_ui.dds"
+			img="data/models/custom_camo/ranger_mtp_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_mtp_camo.dds"/>
 		<ModifiableParams/>
