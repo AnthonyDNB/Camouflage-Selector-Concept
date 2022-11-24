@@ -74,7 +74,7 @@
 	</ExplosiveCharge>
 
 	<Bind eqp="default_outfit_undercover">
-		<to name="Undercover"/>
+
 	</Bind>
 	<ExplosiveCharge name="default_outfit_undercover" inventoryBinding="SupportGear2"
 			tooltip="@CIA_undercover_default_outfit_name"
