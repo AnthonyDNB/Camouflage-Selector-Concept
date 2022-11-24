@@ -1,11 +1,11 @@
 <Equipment>
 
 	#For Debuging
-	<Bind eqp="naked_skin">
+	<Bind eqp="cube_body">
 			<to name="Rangers"/>
 			<to name="CIA"/>
 	</Bind>
-	<ExplosiveCharge name="naked_skin" inventoryBinding="SupportGear2"
+	<ExplosiveCharge name="cube_body" inventoryBinding="SupportGear2"
 				tooltip="@naked_name"
 				description="@naked_desc"
 				img="data/models/custom_camo/cubebody_ui.tga"
@@ -68,6 +68,34 @@
 			img="data/models/humans/ranger_multicam_camo_ui.tga"
 		>
 		<RenderObject3D model="data/models/humans/ranger_default_camo_grenadier.khm" diffuseTex="data/models/humans/ranger_default_camo_grenadier.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_outfit_undercover">
+		<to name="Undercover"/>
+	</Bind>
+	<ExplosiveCharge name="default_outfit_undercover" inventoryBinding="SupportGear2"
+			tooltip="@CIA_undercover_default_outfit_name"
+			description="@CIA_undercover_default_outfit_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/cia_default_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_outfit_blackops">
+		<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="default_outfit_blackops" inventoryBinding="SupportGear2"
+			tooltip="@CIA_blackops_default_outfit_name"
+			description="@CIA_blackops_default_outfit_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/humans/cia_01.dds"/>
 		<ModifiableParams/>
 		<Params>
 		</Params>

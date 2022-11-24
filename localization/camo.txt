@@ -14,6 +14,10 @@
 #Default camo for the classes
 @MultiCam_camo_name=MultiCam (Default)
 @MultiCam_camo_desc=The standard of many nations, battle proven and reliable in most field conditions including desert, woodland, mountains and urban locations\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least OpFor can't see you.
+@CIA_undercover_default_outfit_name=Local Outfit (Default)
+@CIA_undercover_default_outfit_desc=
+@CIA_blackops_default_outfit_name=Tactical Local Outfit (Default)
+@CIA_blackops_default_outfit_desc=
 @ragged_uniform_name=Ragged Uniform
 @ragged_uniform_desc=
 
