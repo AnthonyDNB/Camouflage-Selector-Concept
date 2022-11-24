@@ -2,7 +2,7 @@
 
 My preview concept of how KHG are going to add an Camouflage/Outfit selector to DoorKickers 2 when the v1.0 update comes out, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on Github and using the term "**Concept**" 
 
-Btw due to many issues with the CIA this is now a rangers only mod and also due to how this mod works, this mod wont be compatible to any other mods that uses the default human models
+Btw due to many issues with the CIA this is now a rangers only mod and also due to how this mod works it wont be compatible to any other mods that uses the default human models
 
 For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @Anthony in the #dk2_mod_discussion channel in the DoorKickers Discord
 
@@ -22,7 +22,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 
 # Technical Issues and Deal Breakers
 
--The big deal breaker for me is the lockpic wont work anymore becuse i used a INV slot normally reserved for the lockpic (its the only way i could do it) but however i think i got a idea how to fix this in a later game update
+-The big deal breaker for me is the lockpic wont work anymore becuse i used a INV slot normally reserved for the lockpic (its the only way i could do it)
 
 -The 2nd thing that bugged me is I couldn't get the ui of how i wanted it to be in a different sub-menu with added details
 
