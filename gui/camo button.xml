@@ -8,7 +8,7 @@
 	<OnOpen>
 		<Action type="AddMeToParent" target="#inventory_panel"/>
 	</OnOpen>
-	<Checkbox name="SupportGear2" align="r" origin="300 -463" defaultState="UncheckedState">
+	<Checkbox name="MountedGun" align="r" origin="300 -463" defaultState="UncheckedState">
 		<UncheckedState>
 			<RenderObject2D texture="data/textures/gui/customization/small_button_normal.tga"/>
 			<OnHover>
