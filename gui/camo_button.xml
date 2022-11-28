@@ -1,0 +1,41 @@
+<GUIItems>
+<EventActionBatch name="GAME_GUI_LOADTIME_ACTIONS">
+	<Action type="Show" target="Camo_Button"/>
+	<Action type="SetForeground" target="Camo_Button"/>
+</EventActionBatch>
+
+<Item name="Camo_Button" hidden="true">
+	<OnOpen>
+		<Action type="AddMeToParent" target="#inventory_panel"/>
+	</OnOpen>
+	<Checkbox name="MountedGun" align="r" origin="300 -463" defaultState="UncheckedState">
+		<UncheckedState>
+			<RenderObject2D texture="data/textures/gui/customization/small_button_normal.tga"/>
+			<OnHover>
+				<RenderObject2D texture="data/textures/gui/customization/small_button_hover.tga"/>
+			</OnHover>
+			<OnClick>
+				<RenderObject2D texture="data/textures/gui/customization/small_button_selectedhover.tga"/>
+				<Action type="TriggerEvent" target="GUI_GAME_CUSTOMIZE_INVENTORY_SELECT"/>
+				<Action type="TriggerEvent" target="GUI_CUSTOMIZE_UNCHECK_ALL"/>
+				<Action type="Show" target="#equipment_list_panel"/>
+			</OnClick>
+		</UncheckedState>
+
+		<CheckedState>
+			<RenderObject2D texture="data/textures/gui/customization/small_button_selected.tga"/>
+			<OnHover>
+				<RenderObject2D texture="data/textures/gui/customization/small_button_selectedhover.tga"/>
+			</OnHover>
+			<OnClick>
+				<RenderObject2D texture="data/textures/gui/customization/small_button_hover.tga"/>
+				<Action type="Hide" target="#equipment_list_panel"/>
+			</OnClick>
+		</CheckedState>
+		<StaticImage origin="0 16" name="#image">
+			<RenderObject2D texture="data/models/equipment/breaching_charge_ui.dds"/>
+		</StaticImage>
+		<StaticText name="#name" origin="10 4" text="Helmet" font="paragraph_2" align="lb" textColor="f0e3cc"/>
+	</Checkbox>
+</Item>
+</GUIItems>

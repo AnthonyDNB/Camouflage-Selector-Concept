@@ -1,0 +1,163 @@
+<Equipment>
+
+	#For Debuging
+	<Bind eqp="cube_body">
+			<to name="Rangers"/>
+			<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="cube_body" inventoryBinding="MountedGun"
+				tooltip="@naked_name"
+				description="@naked_desc"
+				img="data/models/custom_camo/cubebody_ui.tga"
+			>
+			<ModifiableParams/>
+			<Params>
+			</Params>
+	</ExplosiveCharge>
+
+
+	#Default camo for the classes
+	<Bind eqp="default_camo_assaulter">
+		<to name="Assault"/>
+	</Bind>
+	<ExplosiveCharge name="default_camo_assaulter" inventoryBinding="MountedGun"
+			tooltip="@MultiCam_camo_name"
+			description="@MultiCam_camo_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/humans/ranger_default_camo_assaulter.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_camo_support">
+		<to name="Support"/>
+	</Bind>
+	<ExplosiveCharge name="default_camo_support" inventoryBinding="MountedGun"
+			tooltip="@MultiCam_camo_name"
+			description="@MultiCam_camo_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_support.khm" diffuseTex="data/models/humans/ranger_default_camo_support.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_camo_marksman">
+		<to name="Marksman"/>
+	</Bind>
+	<ExplosiveCharge name="default_camo_marksman" inventoryBinding="MountedGun"
+			tooltip="@MultiCam_camo_name"
+			description="@MultiCam_camo_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_marksman.khm" diffuseTex="data/models/humans/ranger_default_camo_marksman.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_camo_grenadier">
+		<to name="Grenadier"/>
+	</Bind>
+	<ExplosiveCharge name="default_camo_grenadier" inventoryBinding="MountedGun"
+			tooltip="@MultiCam_camo_name"
+			description="@MultiCam_camo_desc"
+			img="data/models/humans/ranger_multicam_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_grenadier.khm" diffuseTex="data/models/humans/ranger_default_camo_grenadier.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_outfit_undercover">
+		<to name="Undercover"/>
+		<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="default_outfit_undercover" inventoryBinding="MountedGun" unlockCost="0"
+			tooltip="@CIA_undercover_default_outfit_name"
+			description="@CIA_undercover_default_outfit_desc"
+			img="data/models/humans/cia_undercover_outfit_ui.tga"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<RenderObject3D model="data/models/humans/cia_default_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="default_outfit_blackops">
+		<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="default_outfit_blackops" inventoryBinding="MountedGun"
+			tooltip="@CIA_blackops_default_outfit_name"
+			description="@CIA_blackops_default_outfit_desc"
+			img="data/models/humans/cia_blackops_outfit_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/humans/cia_01.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	#Custom camo/outfits
+	<Bind eqp="Flannel_camo">
+		<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="Flannel_camo" inventoryBinding="MountedGun"
+			tooltip="@flannel_outfit_name"
+			description="@flannel_outfit_desc"
+			img="data/models/custom_camo/ranger_flannel_outfit_ui.tga"
+		>
+		<RenderObject3D  model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_flannel_outfit.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+
+	<Bind eqp="DDPM_camo">
+		<to name="Rangers"/>
+	</Bind>
+	<ExplosiveCharge name="DDPM_camo" inventoryBinding="MountedGun"
+			tooltip="@DDPM_camo_name"
+			description="@DDPM_camo_desc"
+			img="data/models/custom_camo/ranger_dpm_desert_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_desert_camo.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="DPM_camo">
+		<to name="BlackOps"/>
+	</Bind>
+	<ExplosiveCharge name="DPM_camo" inventoryBinding="MountedGun"
+			tooltip="@DPM_camo_name"
+			description="@DPM_camo_desc"
+			img="data/models/custom_camo/ranger_dpm_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_dpm_camo.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+
+	<Bind eqp="MTP_camo">
+		<to name="Rangers"/>
+	</Bind>
+	<ExplosiveCharge name="MTP_camo" inventoryBinding="MountedGun"
+			tooltip="@MTP_camo_name"
+			description="@MTP_camo_desc"
+			img="data/models/custom_camo/ranger_mtp_camo_ui.tga"
+		>
+		<RenderObject3D model="data/models/humans/ranger_default_camo_assaulter.khm" diffuseTex="data/models/custom_camo/ranger_mtp_camo.dds"/>
+		<ModifiableParams/>
+		<Params>
+		</Params>
+	</ExplosiveCharge>
+</Equipment>
