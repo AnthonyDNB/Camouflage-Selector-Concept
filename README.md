@@ -12,11 +12,17 @@ For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @An
 # Features
 
 -MultiCam (Default) Camo <br />
+  Rangers
 -CIA Undercover and Blackops (Default) Outfits<br />
+  CIA Undercover and Blackops
 -Flannel Outfit <br />
+  CIA Blackops
 -DPM Desert Camo<br />
+  CIA Blackops and Rangers
 -MTP Camo<br />
+  Rangers
 -DPM Woodland Camo<br />
+  CIA Blackops
 
 -Debug Box <br />
   Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
