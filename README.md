@@ -25,10 +25,10 @@ For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @An
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
 
 # Planned
--SWAT support with new outfits for them 
--More CIA Drip
--DCU/DDPM combo
--Nexus upload
+-SWAT support with new outfits for them <br />
+-More CIA Drip<br />
+-DCU/DDPM combo<br />
+-Nexus upload<br />
 
 # Known Issues/bugs
 
