@@ -24,7 +24,13 @@ For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @An
 # How it works
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
 
-# Known Issues
+# Planned
+-SWAT support with new outfits for them 
+-More CIA Drip
+-DCU/DDPM combo
+-Nexus upload
+
+# Known Issues/bugs
 
 -Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho without thier camo/outfit not showing up
 
