@@ -26,7 +26,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 
 # Known Issues
 
--Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho
+-Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho without thier camo/outfit not showing up
 
 -The default camos wont be equiped by default so you will need to apply it yourself before you start the game or the 3d models wont show
 
