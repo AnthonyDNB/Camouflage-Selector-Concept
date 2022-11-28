@@ -1,8 +1,6 @@
-# Preview Camouflage Selector Concept For DK2 e
+# Preview Camouflage Selector Concept For DK2
 
-My preview concept of how KHG are going to add an Camouflage/Outfit selector to DoorKickers 2 when the v1.0 update comes out, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on Github and using the term "**Concept**"
-
-Btw due to many issues with the CIA this is now a rangers only mod and also due to how this mod works it wont be compatible to any other mods that uses the default human models
+My preview concept of how KHG may going about to add an Camouflage/Outfit selector to DoorKickers 2 when the v1.0 update comes out, But however, because of some technical issues and deal breakers I encountered. I couldn't make this an proper mod I would like to publish on nexus/ the official steam workshop so that's why I am posting it on Github and using the term "**Concept**"
 
 For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @Anthony in the #dk2_mod_discussion channel in the DoorKickers Discord
 
@@ -10,23 +8,23 @@ For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @An
 # Features
 
 -MultiCam (Default) Camo <br />
+-CIA Undercover and Blackops (Default) Outfits<br />
 -Flannel Outfit <br />
 -DPM Desert Camo<br />
 -MTP Camo<br />
+-DPM Woodland Camo<br />
 
 -Debug Box <br />
-  It doesn't equip any Human 3D model at all so you can use it to help you to make and debug outfits/3d models if needs be
+  Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
 
 # How it works
-The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity
+The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
 
 # Known Issues
 
-<<<<<<< HEAD
+-Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho
+
 -
-=======
--The big deal breaker for me is the lockpic wont work anymore becuse i used a INV slot normally reserved for the lockpic (its the only way i could do it)
->>>>>>> 3b83388864f68606edec3d57c9fd26ecbffcfcab
 
 -The 2nd thing that bugged me is I couldn't get the ui of how i wanted it to be in a different sub-menu with added details
 
@@ -37,4 +35,4 @@ The mod works by replacing the default human models with sly's clothing cube mod
 4Recce - Helped me with the descriptions for a quick overview of the camos/outfits <br />
 Sly - Used his Clothing Cube model <br />
 Brave Blades - Used his human texters template <br />
-SFEDS - Dude found out they is a other slot iIcan use to stop the lockpicking bug<br />
+SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug<br />
