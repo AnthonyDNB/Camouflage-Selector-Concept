@@ -43,4 +43,4 @@ The mod works by replacing the default human models with sly's clothing cube mod
 4Recce - Helped me with the descriptions for a quick overview of the camos/outfits <br />
 Sly - Used his Clothing Cube model <br />
 Brave Blades - Used his human texters template <br />
-SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug<br />
+SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug and he worked on the VIP batch roster replacer file<br />
