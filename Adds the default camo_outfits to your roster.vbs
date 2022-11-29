@@ -127,6 +127,8 @@ Do Until f.AtEndOfStream
     End IF
 Loop
 
+MsgBox "The default Camos/Outfits have been equipped to your vanilla squad(s)",0,"Camouflage Selector Concept"
+
 f.Close
 f2.Close
 
