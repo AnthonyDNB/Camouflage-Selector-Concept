@@ -22,8 +22,8 @@ Camos/Outfits <br />
 &nbsp;-Debug Box <br />
   &nbsp;Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
 
-WIP Roster batch file replacer <br />
-  &nbsp;A quick way to add the default camo/outfits are not equiped by default, (Personally I dont its needed but SFEDS said it would be cool to add)
+Roster batch file replacer <br />
+  &nbsp;A quick way to add the default camo/outfits are not equiped by default to your classes,)
 
 # How it works
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
@@ -47,4 +47,4 @@ The mod works by replacing the default human models with sly's clothing cube mod
 4Recce - Helped me with the descriptions for a quick overview of the camos/outfits <br />
 Sly - Used his Clothing Cube model <br />
 Brave Blades - Used his human texters template <br />
-SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug and he is working on the VIP roster batch file replacer <br />
+SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug and he is worked on the batch file replacer <br />
