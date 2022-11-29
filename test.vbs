@@ -16,6 +16,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_camo_assaulter""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
@@ -40,6 +42,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_camo_support""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
@@ -63,6 +67,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_camo_marksman""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
@@ -85,6 +91,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_camo_grenadier""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
@@ -108,6 +116,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_outfit_undercover""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
@@ -131,6 +141,8 @@ Do Until f.AtEndOfStream
       line = f.ReadLine
 		IF line = "                <MountedGun/>" then
 			f2.WriteLine "                <MountedGun name=""default_outfit_blackops""/>"
+		Else
+			f2.WriteLine line
 		End IF
     Else
       f2.WriteLine line
