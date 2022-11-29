@@ -13,13 +13,16 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_camo_assaulter""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_camo_assaulter""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
 Loop
-
 f.Close
 f2.Close
 fso.DeleteFile filename
@@ -36,8 +39,12 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_camo_support""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_camo_support""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
@@ -57,13 +64,16 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_camo_marksman""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_camo_marksman""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
 Loop
-
 f.Close
 f2.Close
 fso.DeleteFile filename
@@ -78,8 +88,12 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_camo_grenadier""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_camo_grenadier""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
@@ -99,8 +113,12 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_outfit_undercover""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_undercover""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
@@ -120,17 +138,22 @@ Do Until f.AtEndOfStream
       For i = 1 to 18
         f2.WriteLine f.ReadLine
       Next
-      f.ReadLine
-      f2.WriteLine "                <MountedGun name=""default_outfit_blackops""/>"
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_blackops""/>"
+		Else
+			f2.WriteLine line
+		End IF
     Else
       f2.WriteLine line
     End IF
 Loop
 
-MsgBox "The default Camos/Outfits have been equipped to your vanilla squad(s)",0,"Camouflage Selector Concept"
-
 f.Close
 f2.Close
+
+MsgBox "The default Camos/Outfits have been equipped to your vanilla squad(s)",vbOKOnly,"Camouflage Selector Concept"
+
 
 fso.DeleteFile filename
 fso.MoveFile filename2, filename
