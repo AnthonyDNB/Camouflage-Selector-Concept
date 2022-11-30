@@ -31,7 +31,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 
 # Planned
 -More CIA Drip<br />
--Add some outfits/camos to swat
+-Add some outfits/camos to swat<br />
 -DCU/DDPM combo would be cool to add<br />
 -Nexus upload<br />
 
