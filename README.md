@@ -23,7 +23,7 @@ Camos/Outfits <br />
   &nbsp;Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
 
 Roster batch file replacer <br />
-  &nbsp;A quick way to add the default camo/outfits are not equiped by default to your classes,)
+  &nbsp;A quick way to add the default camo/outfits are not equiped by default to your classes :)
 
 # How it works
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
@@ -34,7 +34,7 @@ The mod works by replacing the default human models with sly's clothing cube mod
 -DCU/DDPM combo<br />
 -Nexus upload<br />
 
-# Known Issues/bugs
+# Known Issues/Bugs
 
 -Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho without thier camo/outfit not showing up
 
