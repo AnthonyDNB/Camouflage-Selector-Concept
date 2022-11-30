@@ -6,24 +6,25 @@
 # -Keep every @id=text on one line
 #
 
-
 #For Debugging
 @naked_name=Naked (Cube Body)
 @naked_desc=You have dedicated clothes and skin are too good for y...basically its an debugging tool to test the outfits/camos of this concept preview mod, normally it will be disabled
 
-#Default camo for the classes
+#Default camos/outfits for the classes
 @MultiCam_camo_name=MultiCam
 @MultiCam_camo_desc=The standard of many nations, battle proven and reliable in most field conditions including desert, woodland, mountains and urban locations\n\nAlthough the set that you have on was made in a sweat shop and it's a bit tight in the crotch area, but hey at least OpFor can't see you.
 @CIA_undercover_default_outfit_name=Local Clothing
 @CIA_undercover_default_outfit_desc=Local clothes you have pick up at the local market, the quality is questionable and child labor maybe be involved but hey at least you look like your avenge Nowheraki
 @CIA_blackops_default_outfit_name=Street Clothes
 @CIA_blackops_default_outfit_desc=Your job is too back up your boys who are under deep cover. Shit can go sideways at any moment so wearing clothes that are comfortable enough to move in is a must\n\nThe blue jeans are comfy and rugged while the cotton shirt is light and cool that will make any lower class Nowheraki will be jealous of\n\nThrow on a slim plate carrier and your good to go likewise you'll still need to cover up completely if you want to move undetected but at least this way your half way there.
-@ragged_uniform_name=SWAT Uniform
-@ragged_uniform_desc=
+@SWAT_default_outfit_name=SWAT Uniform
+@SWAT_default_outfit_desc=The standard black fatigues of Nowheraki SWAT are perfect for any urban combat in the field and it strikes terror into the hearts of insurgents alike while being easily identifiable even in the most chaotic of gunfights.\n\nBut it isn't all fine and dandy tho, the stitching's not great and it's one size too small, That's Nowheraki corruption for you
+@SWAT_militia_default_outfit_name=Militia Outfit
+@SWAT_militia_default_outfit_desc=Since you are just an civilian among the ranks you don't get priority to government funded SWAT issued uniforms\n\nBut hey don't worry, rag up your clothes a bit and add a headband to the mix and you will be perfect for any thing urban warfare throws at you - except from bullets
 
-#Custom camo/outfits
-@flannel_outfit_name=Flannel Outfit
-@flannel_outfit_desc=You watched one of Garand dad's videos and decided that flannel would look good for your next DA op in Nowheraki.\n\nYou look like a lumberjack or a too cool PMC contractor, but it is comfortable in this hot weather and it does make you stand out from your comrades in arms.
+#Custom camos/outfits
+@Flannel_outfit_name=Flannel Outfit
+@Flannel_outfit_desc=You watched one of Garand dad's videos and decided that flannel would look good for your next DA op in Nowheraki.\n\nYou look like a lumberjack or a too cool PMC contractor, but it is comfortable in this hot weather and it does make you stand out from your comrades in arms.
 @DDPM_camo_name=DPM Desert
 @DDPM_camo_desc=A sister variant of the classic woodland DPM worn by the British Armed Forces in the early years of their foray into Iraq and Afghanistan.\n\nA good camo for all desert environments it is also one of the last traditional camos before the soulless multicam took its place\n\nThough it is still in use in some circles most notably the UK & US joined task forces operators who prefer the classic DPM look over the newer camos
 @DPM_camo_name=DPM Woodland

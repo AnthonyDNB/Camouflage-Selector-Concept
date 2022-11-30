@@ -151,9 +151,107 @@ Loop
 
 f.Close
 f2.Close
-
-MsgBox "The default Camos/Outfits have been equipped to your vanilla squad(s)",vbOKOnly,"Camouflage Selector Concept"
-
-
 fso.DeleteFile filename
 fso.MoveFile filename2, filename
+Set f = fso.OpenTextFile(filename,1)
+Set f2 = fso.createTextFile(filename2)
+test = "        <Trooper class=""SwatLeader"">"
+Do Until f.AtEndOfStream
+    line = f.ReadLine
+    If test = line Then
+      f2.WriteLine line
+      For i = 1 to 18
+        f2.WriteLine f.ReadLine
+      Next
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_swat_leader""/>"
+		Else
+			f2.WriteLine line
+		End IF
+    Else
+      f2.WriteLine line
+    End IF
+Loop
+
+f.Close
+f2.Close
+fso.DeleteFile filename
+fso.MoveFile filename2, filename
+Set f = fso.OpenTextFile(filename,1)
+Set f2 = fso.createTextFile(filename2)
+test = "        <Trooper class=""SwatAssaulter"">"
+Do Until f.AtEndOfStream
+    line = f.ReadLine
+    If test = line Then
+      f2.WriteLine line
+      For i = 1 to 18
+        f2.WriteLine f.ReadLine
+      Next
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_swat_assaulter""/>"
+		Else
+			f2.WriteLine line
+		End IF
+    Else
+      f2.WriteLine line
+    End IF
+Loop
+
+f.Close
+f2.Close
+fso.DeleteFile filename
+fso.MoveFile filename2, filename
+Set f = fso.OpenTextFile(filename,1)
+Set f2 = fso.createTextFile(filename2)
+test = "        <Trooper class=""SwatSapper"">"
+Do Until f.AtEndOfStream
+    line = f.ReadLine
+    If test = line Then
+      f2.WriteLine line
+      For i = 1 to 18
+        f2.WriteLine f.ReadLine
+      Next
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_swat_sapper""/>"
+		Else
+			f2.WriteLine line
+		End IF
+    Else
+      f2.WriteLine line
+    End IF
+Loop
+
+f.Close
+f2.Close
+fso.DeleteFile filename
+fso.MoveFile filename2, filename
+Set f = fso.OpenTextFile(filename,1)
+Set f2 = fso.createTextFile(filename2)
+test = "        <Trooper class=""SwatMilitia"">"
+Do Until f.AtEndOfStream
+    line = f.ReadLine
+    If test = line Then
+      f2.WriteLine line
+      For i = 1 to 18
+        f2.WriteLine f.ReadLine
+      Next
+      line = f.ReadLine
+		IF line = "                <MountedGun/>" then
+			f2.WriteLine "                <MountedGun name=""default_outfit_swat_militia""/>"
+		Else
+			f2.WriteLine line
+		End IF
+    Else
+      f2.WriteLine line
+    End IF
+Loop
+
+f.Close
+f2.Close
+fso.DeleteFile filename
+fso.MoveFile filename2, filename
+
+MsgBox "The default Camos/Outfits have been equipped to your vanilla squad(s)",vbOKOnly,"Camouflage Selector Concept"
