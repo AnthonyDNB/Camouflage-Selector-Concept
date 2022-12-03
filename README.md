@@ -13,7 +13,8 @@ For any Questions/Suggestions please DM me on Discord AnthonyNonStop#9094 or @An
 
 Camos/Outfits <br />
 &nbsp;-MultiCam (Default) Camo <br />
-&nbsp;-CIA Undercover and Blackops (Default) Outfits<br />
+&nbsp;-CIA Undercover and Blackops (Default) Outfits<br /
+&nbsp;-SWAT and SWAT militia (Default) Outfits<br />
 &nbsp;-Flannel Outfit <br />
 &nbsp;-DPM Desert Camo<br />
 &nbsp;-MTP Camo<br />
@@ -22,29 +23,28 @@ Camos/Outfits <br />
 &nbsp;-Debug Box <br />
   &nbsp;Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
 
-Roster batch file replacer <br />
-  &nbsp;A quick way to add the default camo/outfits are not equiped by default to your classes :)
+Roster VBScript file camos/outfits applier<br />
+  &nbsp;equip's the default camos/outfits to your roster (squads) so you dont need to it manualy
 
 # How it works
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
 
 # Planned
--SWAT support with new outfits for them <br />
 -More CIA Drip<br />
--DCU/DDPM combo<br />
+-Add some outfits/camos to swat<br />
+-DCU/DDPM combo would be cool to add<br />
 -Nexus upload<br />
 
 # Known Issues/Bugs
 
 -Due to how concealment works it disableds any equipment from showing up if the cocealment level is covert and beacuse of this undercover operators can only have thier defult outfit and blackops operators cant equip the poncho without thier camo/outfit not showing up
 
--The default camos wont be equiped by default so you will need to apply it yourself before you start the game or the 3d models wont show
-
 -Custom units that use the vanilla 3d models will be replaced with the cube body but however you can fix this by making a patch that allow it to work and for custom camos/outfits for your units
 
+-The default camos wont be equiped by default so you will need to apply it yourself or use the "Roster VBScript file camos/outfits applier" before you start the game or the 3d models wont show
 # Credits
 
 4Recce - Helped me with the descriptions for a quick overview of the camos/outfits <br />
 Sly - Used his Clothing Cube model <br />
-Brave Blades - Used his human texters template <br />
+Brave Blades - Used his human textures template <br />
 SFEDS - Dude found out they is a other slot i can use to stop the lockpicking bug and he is worked on the batch file replacer <br />
