@@ -1,7 +1,6 @@
 <GUIItems>
 <EventActionBatch name="GAME_GUI_LOADTIME_ACTIONS">
 	<Action type="Show" target="Camo_Button"/>
-	<Action type="SetForeground" target="Camo_Button"/>
 </EventActionBatch>
 
 <Item name="Camo_Button" hidden="true">
