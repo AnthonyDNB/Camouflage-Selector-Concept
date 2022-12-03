@@ -19,6 +19,9 @@ Camos/Outfits <br />
 &nbsp;-DPM Desert Camo<br />
 &nbsp;-MTP Camo<br />
 &nbsp;-DPM Woodland Camo<br />
+&nbsp;-UCP Camo<br />
+&nbsp;-MTP Camo<br />
+&nbsp;-National Uniform<br />
 
 &nbsp;-Debug Box <br />
   &nbsp;Basically its an debugging tool to test out the outfits/camos of this concept preview mod, normally it will be disabled
@@ -30,9 +33,6 @@ Roster VBScript file camos/outfits applier<br />
 The mod works by replacing the default human models with sly's clothing cube model and the human 3D model gets added on by using an "ExplosiveCharge" entity, i know its not the best but if it ain't broke, don't fix it
 
 # Planned
--More CIA Drip<br />
--Add some outfits/camos to swat<br />
--DCU/DDPM combo would be cool to add<br />
 -Nexus upload<br />
 
 # Known Issues/Bugs
