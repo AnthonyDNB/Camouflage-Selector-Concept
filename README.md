@@ -1,5 +1,9 @@
 # Preview Camouflage Selector Concept For DK2
 
+NOTE: THIS MOD NOW HAS A NEXUS LINK, AND USEING THE GITHUB VERSION MAYBE BE UNSTABLE/WONTWORK
+
+LINK:https://www.nexusmods.com/doorkickers2/mods/156?tab=files
+
 My preview concept of how KHG may going about to add an Camouflage/Outfit selector to DoorKickers 2 when the v1.0 update comes out, the mod is not the best and they is a lot of things can be imporve on it i cant do but it works
 
 Because of many technical issues and deal breakers I encountered I decided to post the mod on here instead of nexus, but due of many ground breaking issues I fixed I may entertain the idea to post it on nexus
