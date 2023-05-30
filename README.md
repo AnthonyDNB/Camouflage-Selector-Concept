@@ -1,6 +1,6 @@
 # Preview Camouflage Selector Concept For DK2
 
-NOTE: THIS MOD NOW HAS A NEXUS LINK, AND USEING THE GITHUB VERSION MAYBE BE UNSTABLE/WONTWORK
+NOTE: THIS PAGE IS 100% OUTDATED AND THIS MOD NOW HAS A NEXUS LINK
 
 LINK:https://www.nexusmods.com/doorkickers2/mods/156?tab=files
 
